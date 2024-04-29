@@ -2,15 +2,12 @@
 # Git Assignment - <FredyLRincon>
 
 a. What is an issue?
-
 An issue is a method to track bugs, enhancements, or other tasks for a project.
 
 b. What is a pull request?
-
 A pull request allows Git users to review proposed changes and discuss them before merging from one branch to another. Users can also comment, participate in the discussion, and contribute commits to the pull request.
 
 c. How do I open up a pull request?
-
 Once you have created a new repository or fork an existing one, you must clone it to your computer, create branch(es), and make and commit your changes.
 
 git add . 
@@ -66,4 +63,4 @@ It is the default branch for a git repository - the master copy. Once the branch
 h. Besides our initial commit, if it is a new repository, should we push our changes directly into the main branch?
 
 As per question g, it's not a best practice to publish directly into the master copy (main), especially when working in teams. Instead, it is better to have your drafts in a branch. Once they reach a final or ideal state, they can be published in the main branch via pull request.
-
+  
